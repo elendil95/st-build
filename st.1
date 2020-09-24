@@ -142,14 +142,20 @@ Print the full screen to the
 Print the selection to the
 .I iofile.
 .TP
-.B Ctrl-Shift-Page Up
+.B Ctrl-Plus
 Increase font size.
 .TP
-.B Ctrl-Shift-Page Down
+.B Ctrl-Minus
 Decrease font size.
 .TP
-.B Ctrl-Shift-Home
+.B Ctrl-0
 Reset to default font size.
+.TP
+.B Shift-PageUp
+Scroll the terminal up.
+.TP
+.B Shift-PageDown
+Scroll the terminal down.
 .TP
 .B Ctrl-Shift-y
 Paste from primary selection (middle mouse button).
@@ -159,6 +165,14 @@ Copy the selected text to the clipboard selection.
 .TP
 .B Ctrl-Shift-v
 Paste from the clipboard selection.
+.SH MOUSE SHORTCUTS
+.TP
+.B Shift-Scroll wheel up
+Scroll the terminal up
+.TP
+.B Shift-Scroll wheel down
+Scroll the terminal down
+.TP
 .SH CUSTOMIZATION
 .B st
 can be customized by creating a custom config.h and (re)compiling the source
